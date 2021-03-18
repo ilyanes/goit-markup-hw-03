@@ -153,7 +153,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
+  width: 696px;
 }
 .modal-btn {
   font-weight: 700;
@@ -180,6 +181,9 @@ body {
 }
 .description-list {
   display: flex;
+}
+.description-item {
+  width: 270px;
 }
 .description-item:not(:last-child) {
   margin-right: 30px;
